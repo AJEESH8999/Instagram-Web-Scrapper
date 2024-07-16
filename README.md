@@ -23,9 +23,16 @@ This repository contains a Python script for scraping Instagram data, focusing o
    ```bash
    git clone https://github.com/AJEESH8999/Instagram-Web-Scrapper/tree/main
    cd Instagram-Web-Scrapper
-2. Download WebDriver
+## Download WebDriver
  - Download the appropriate WebDriver for the browser you intend to use. For example:
 
  - ChromeDriver
  - GeckoDriver (Firefox)
  - Make sure the WebDriver executable is in your system's PATH, or specify its location in your code.
+## Key Components Explained
+ - WebDriver Initialization: Create an instance of the WebDriver for your browser.
+ - Navigating to a URL: Use the get() method to open a web page.
+ - Finding Elements: Use methods like find_element_by_name, find_element_by_xpath, etc., to locate elements on the page.
+ - Interacting with Elements: Methods like send_keys() and click() allow you to interact with elements.
+ - Waiting: Use time.sleep() for simple waits, but for more robust waiting, use WebDriver's explicit waits.
+ - Closing the Browser: Use quit() to close the browser once your tasks are complete.
