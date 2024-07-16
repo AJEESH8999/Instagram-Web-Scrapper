@@ -21,5 +21,5 @@ This repository contains a Python script for scraping Instagram data, focusing o
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/instagram-scraper.git
-   cd instagram-scraper
+   git clone https://github.com/AJEESH8999/Instagram-Web-Scrapper/tree/main
+   cd Instagram-Web-Scrapper
