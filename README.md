@@ -24,7 +24,7 @@ This repository contains a Python script for scraping Instagram data, focusing o
    git clone https://github.com/AJEESH8999/Instagram-Web-Scrapper/tree/main
    cd Instagram-Web-Scrapper
 2. Install Required Libraries
-   '''bash
+   ```bash
    pip install -r requirements.txt
 ## Download WebDriver
  - Download the appropriate WebDriver for the browser you intend to use. For example:
